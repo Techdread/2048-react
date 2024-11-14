@@ -1,6 +1,70 @@
-# Getting Started with Create React App
+# 2048 Game React Implementation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![2048 Game](https://img.shields.io/badge/Game-2048-brightgreen)
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+
+A modern implementation of the classic 2048 game built with React and TypeScript. Challenge yourself with this addictive puzzle game where you combine numbers to reach the elusive 2048 tile!
+
+## Game Description
+
+2048 is an engaging single-player sliding tile puzzle game. The objective is simple yet challenging: slide numbered tiles on a 4x4 grid to combine them and create a tile with the number 2048.
+
+### How to Play
+
+1. Use arrow keys to slide tiles in four directions (up, down, left, right)
+2. When two tiles with the same number collide, they merge into one tile with their sum
+3. After each move, a new tile with a value of 2 or 4 appears in a random empty cell
+4. Keep combining tiles to reach 2048!
+
+### Game Features
+
+- Clean and intuitive user interface
+- Modern design with smooth animations
+- Responsive layout for both desktop and mobile
+- Score tracking
+- Game state preservation
+- Keyboard controls support
+
+## Technology Stack
+
+- React.js
+- TypeScript
+- CSS3 for styling
+- Create React App as the foundation
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone [repository-url]
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm start
+```
+
+4. Open http://localhost:3000 in your browser
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](issues-link).
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+Made with ❤️ and React
+</div>
 
 ## Available Scripts
 
